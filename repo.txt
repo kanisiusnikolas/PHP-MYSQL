@@ -1,0 +1,38 @@
+INFORMASI PROJECT PORTOFOLIO
+
+Nama               : Kanisius Nikolas Candra
+NIM                : 20246039
+Bidang             : Mekatronika dan Otomasi
+Nama folder        : Web-PHP
+Nama database      : user20246039
+Branch Git         : Web-PHP
+URL Repository     : https://github.com/kanisiusnikolas/Java_script.git
+
+
+FITUR WEBSITE
+1. Services ditampilkan secara dinamis dari database.
+2. Grafik statistik mengambil data dari database dan diperbarui otomatis setiap 5 detik.
+3. Contact Form menyimpan pesan pengunjung ke database.
+4. Tampilan responsif dengan navigasi antarbagian.
+5. Bagian Technical Skills & Technologies.
+
+CARA MENJALANKAN SECARA LOKAL
+1. Ekstrak folder Web-PHP ke C:\xampp\htdocs\
+2. Jalankan Apache dan MySQL melalui XAMPP.
+3. Buka phpMyAdmin.
+4. Import file db_portofolio.sql yang berada di folder utama Web-PHP.
+5. Periksa konfigurasi koneksi pada file koneksi.php.
+6. Buka http://localhost/Web-PHP/ melalui browser.
+
+STRUKTUR FILE UTAMA
+- index.php             : halaman utama website
+- koneksi.php           : koneksi ke database
+- data_statistik.php    : endpoint data grafik dalam format JSON
+- cek_koneksi.php       : pengujian koneksi database
+- db_portofolio.sql     : skrip SQL lengkap (database, tabel, dan data awal)
+- database_update.sql   : skrip pembaruan isi services dan statistics
+
+CATATAN
+- Sesuaikan URL Repository GitHub sebelum pengumpulan.
+- Sesuaikan koneksi.php jika username, password, host, atau nama database server berbeda.
+- Untuk dipasang pada server bersama, salin seluruh file website dan import db_portofolio.sql ke database server sesuai arahan administrator.
